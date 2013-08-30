@@ -13,7 +13,7 @@
 #define __IPNUMBER_H__
 
 #include "TWInteger.h"
-#include <qstring.h>
+#include <QString>
 
 class IpNumber:TWInteger
 {

@@ -12,7 +12,7 @@
 #ifndef __TWInteger__
 #define __TWInteger__
 
-#include <qstring.h>
+#include <QString>
 
 class TWInteger
 {

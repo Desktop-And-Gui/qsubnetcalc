@@ -17,9 +17,9 @@
 #include <qpushbutton.h>
 #include <qlayout.h>
 #include <qtooltip.h>
-#include <qwhatsthis.h>
+#include <q3whatsthis.h>
 
-QSubnetCalc::QSubnetCalc( QWidget* parent, const char* name, WFlags fl ):QSCMainWindow(parent,name,fl)
+QSubnetCalc::QSubnetCalc( QWidget* parent, const char* name, Qt::WFlags fl ):QSCMainWindow(parent,name,fl)
 {
 	calc = new ComputeSubnetData();
 }

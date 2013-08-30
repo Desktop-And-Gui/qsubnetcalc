@@ -16,7 +16,7 @@ using namespace std;
 
 void out(QString x, IpNumber a)
 {
-	cout << x << "  " << a.toBitString() << "  " << a.toString() << endl;
+	cout << x.toStdString() << "  " << a.toBitString().toStdString() << "  " << a.toString().toStdString() << endl;
 }
 	
 void myendl()

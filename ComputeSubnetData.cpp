@@ -13,7 +13,7 @@
 #include "ComputeSubnetData.h"
 #include "IpNumber.h"
 #include "TWInteger.h"
-#include <qstring.h>
+#include <QString>
 	
 ComputeSubnetData::ComputeSubnetData()
 {

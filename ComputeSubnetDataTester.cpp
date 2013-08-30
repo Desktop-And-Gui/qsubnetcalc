@@ -16,7 +16,7 @@ using namespace std;
 	
 void out(const QString explanation,const QString bits,const  QString ip)
 {
-	cout << explanation << ": " << bits << " " << ip << endl;
+	cout << explanation.toStdString() << ": " << bits.toStdString() << " " << ip.toStdString() << endl;
 }
 
 void endl()
@@ -32,9 +32,9 @@ void fullOut(ComputeSubnetData calc)
 		out("HostID         ",calc.getHostIdBits(),calc.getHostId());
 		out("NetAddress      ",calc.getNetworkAddressBits(),calc.getNetworkAddress());
 		out("BroadcastAddress",calc.getBroadcastAddressBits(),calc.getBroadcastAddress());		
-		cout << "ClassType :      " << calc.getDefaultClassType() << endl;
-		cout << "NetAddressSize   :" << calc.getNetAddressSize() << endl;
-		cout << "HostAddressSize  :" << calc.getHostAddressSize() << endl;
+		cout << "ClassType :      " << calc.getDefaultClassType().toStdString() << endl;
+		cout << "NetAddressSize   :" << calc.getNetAddressSize().toStdString() << endl;
+		cout << "HostAddressSize  :" << calc.getHostAddressSize().toStdString() << endl;
 		endl();
 	}
 

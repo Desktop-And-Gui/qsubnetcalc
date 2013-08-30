@@ -144,7 +144,7 @@ QString IpNumber::byteToBitString(int x)
 bool IpNumber::set(QString ipnumber)
 {
 	QRegExp ipRegExp("^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$");
-	int pos = ipRegExp.search(ipnumber);
+	int pos = ipRegExp.indexIn(ipnumber);
 	bool retValue,flag;
 	QString actual;
 	if (pos > -1)

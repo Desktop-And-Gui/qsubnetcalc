@@ -20,7 +20,7 @@
 class QSubnetCalc:public QSCMainWindow
 {
 	public:
-		QSubnetCalc(QWidget* parent = 0, const char* name = 0, WFlags fl = 0 );
+		QSubnetCalc(QWidget* parent = 0, const char* name = 0, Qt::WFlags fl = 0 );
 		~QSubnetCalc();
 	public slots:
 		virtual void calculate();
