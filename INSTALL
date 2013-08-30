@@ -1,0 +1,27 @@
+Howto Install:
+
+1. Setup Enviroment: 
+	tcsh: setenv PATH $QTDIR/bin:$PATH
+	bash: export PATH=$QTDIR/bin:$PATH
+	
+2. Create Makefile:
+	qmake QSubnetCalc.pro
+
+3. Build:
+	make
+
+4. Start Program
+	qsubnetcalc	
+		
+Requirements:
+
+I developed QSubnetCalc on a SuSE Linux 8.0 Box. 
+I installed the packages qt3 and qt3-devel.
+
+QSubnetCalc should compile on every System with Qt 3.1, qmake 
+and a C++ Compiler.	
+	
+For further explanations write to: thomas@woehlke.org	
+
+Aschaffenburg/Germany, 26.11.2002,
+	Thomas Woehlke

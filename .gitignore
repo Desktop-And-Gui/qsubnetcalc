@@ -1,0 +1,14 @@
+/qsubnetcalc
+/iptester
+/computetester
+/Makefile
+/*.o
+/moc_QSCMainWindow.o
+/moc_QSCMainWindow.cpp
+/QSCMainWindow.cpp 
+/QSCMainWindow.h
+/*~
+/core 
+/*.core
+
+

@@ -1,0 +1,15 @@
+#/bin/sh
+
+rm -f Makefile
+qmake iptester.pro
+make 
+make clean
+
+qmake computetester.pro
+make 
+make clean
+
+qmake QSubnetCalc.pro
+make 
+make clean 
+
