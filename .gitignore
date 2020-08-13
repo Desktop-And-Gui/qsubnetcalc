@@ -11,7 +11,7 @@
 /core 
 /*.core
 /portinglog.txt
-/.idea
+.idea
 
 
 /.qmake.stash
