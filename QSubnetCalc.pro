@@ -5,7 +5,7 @@ FORMS3=QSCMainWindow.ui
 CONFIG+=qt warn_on release x11 stdc
 TARGET=qsubnetcalc
 #The following line was inserted by qt3to4
-QT +=  qt3support 
+#QT +=  qt3support
 #The following line was inserted by qt3to4
 CONFIG += uic3
 
